@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+.owl-carousel {
+  position: relative;
+  height: 100%;
+}
+.owl-carousel div:not(.owl-controls) {
+
+}
+
+ .owl-carousel .owl-nav button.owl-prev{
+    width: 40px;
+    background: #b3b2b261;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-next{
+   width: 40px;
+    background: #b3b2b261;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    outline: none;
+}
+.owl-carousel .item {
+  background-image: url("../imgs/bg-slide.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.owl-carousel div.owl--text {
+     position: absolute;
+    bottom: 25em;
+    left: 6em;
+    width: 33em;
+    height: 8em;
+    padding: 1em;
+    /* background: rgba(255, 255, 255, 0.5); */
+    /* border-radius: 4px;*/
+}
+.txt-slide a:hover{
+text-decoration: none;
+color: gainsboro;
+}
+.owl-carousel .owl-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.owl-carousel .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  zoom: 1;
+  margin: 0;
+  width: 50px;
+  height: 30px;
+  line-height: 25px;
+  text-align: center;
+  font-size: .9em;
+  border-radius: 3px;
+  color: #FFF;
+  background: #000;
+  opacity: .6;
+  text-transform: capitalize;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-prev {
+  left: 5px;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-next {
+  right: 5px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+
+}
+.over{
+        position: absolute;
+    top: 0;
+    left: 0;
+    background: #312e2e;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+@media (min-width: 300px) {
+    .owl-imgss{
+        text-align: center;
+    }
+    .pro-img{
+        width: 80%;height: 250px;
+
+    }
+
+    .txt-slide{
+        text-align: center;
+        margin: 50px 0px;
+    }
+    .txt-slide h1 {
+    color: #fff !important;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.txt-slide h4 {
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff !important;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.txt-slide a {
+    border: 2px solid #ff8800;
+    padding: 6px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    background-color: #ff8800;
+    text-decoration: none;
+
+}
+    .owl-carousel .owl-item img{
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev , .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+
+}
+@media (min-width: 768px) {
+    .pro-img{
+        width: 550px;height: 540px;
+    }
+
+    .txt-slide h1 {
+    color: #fff !important;
+    font-weight: 700;
+    font-family: Roboto,'cairo', sans-serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.txt-slide h4 {
+    padding: 0;
+    font-size: 34px;
+    font-family: 'Raleway','cairo', sans-serif;
+    color: #fff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.txt-slide a {
+    border: 2px solid #ff8800;
+    padding: 6px 30px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Roboto,'cairo', sans-serif;
+    color: #fff;
+    display: inline-block;
+    background-color: #ff8800;
+    text-decoration: none;
+    margin-top: 40px;
+}
+     .txt-slide{
+
+        margin: 120px 0px;
+    }
+    .owl-carousel .owl-item img{
+        width: auto;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev , .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .pro-img{
+        width: 550px;height: 540px;
+    }
+.txt-slide h1 {
+    color: #fff !important;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.txt-slide h4 {
+    padding: 0;
+    font-size: 34px;
+   font-family: 'Josefin Sans', sans-serif;
+    color: #fff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.txt-slide a {
+    border: 2px solid #ff8800;
+    padding: 6px 30px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    display: inline-block;
+    background-color: #ff8800;
+    text-decoration: none;
+}
+    .txt-slide{
+
+        margin: 120px 0px;
+    }
+    .owl-carousel .owl-nav button.owl-prev , .owl-carousel .owl-nav button.owl-next{
+        display: block;
+    }
+}
+
+
+@media (min-width: 1200px) {
+.pro-img{
+        width: 550px;height: 540px;
+    margin-top: 30px;
+    }
+
+    .txt-slide h1 {
+    color: #fff !important;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.txt-slide h4 {
+    padding: 0;
+    font-size: 34px;
+   font-family: 'Josefin Sans', sans-serif;
+    color: #fff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.txt-slide a {
+    border: 2px solid #ff8800;
+    padding: 6px 30px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    display: inline-block;
+    background-color: #ff8800;
+    text-decoration: none;
+}
+    .txt-slide{
+
+        margin: 120px 0px;
+    }
+    .owl-carousel .owl-nav button.owl-prev , .owl-carousel .owl-nav button.owl-next{
+        display: block;
+    }
+}

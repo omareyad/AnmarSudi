@@ -1,0 +1,135 @@
+:root {
+  --main-white-color: white;
+  --main-black-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.static {
+  position: static;
+}
+
+.cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-slide {
+  position: relative;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.owl-carousel .owl-slide-animated {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.05s;
+  font-size: 18px;
+}
+
+.owl-carousel .owl-slide-animated.is-transitioned {
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.owl-carousel .owl-slide-title.is-transitioned {
+  transition-delay: 0.2s;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 18px 4px 14px #2b2d28;
+    font-weight: bold;
+}
+
+.owl-carousel .owl-slide-subtitle.is-transitioned {
+  transition-delay: 0.35s;
+}
+
+.owl-carousel .owl-slide-cta.is-transitioned {
+  transition-delay: 0.5s;
+}
+
+.owl-carousel .owl-dots,
+.owl-carousel .owl-nav {
+  position: absolute;
+}
+
+.owl-carousel .owl-dots .owl-dot,
+.owl-carousel .owl-nav [class*="owl-"]:focus {
+  outline: none;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid var(--main-black-color);
+  transition: all 0.2s ease;
+}
+
+.owl-carousel .owl-dots .owl-dot:hover span,
+.owl-carousel .owl-dots .owl-dot.active span {
+  background-color: #035639;
+}
+
+.owl-carousel .owl-nav {
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: 0;
+}
+
+.owl-carousel .owl-nav svg {
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.owl-carousel .owl-nav button:hover svg {
+  opacity: 1;
+}
+
+.owl-carousel .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+}
+
+section {
+  display: none;
+}
+
+@media screen and (max-width: 575px) {
+  .owl-carousel .owl-nav {
+    top: 5%;
+  }
+
+  .owl-carousel .owl-nav svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+.owl-theme .owl-nav{
+    width: 100%;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 0%;
+    margin-top: 15%;
+}
+.owl-carousel .owl-nav button.owl-prev
+{
+    position: absolute;
+    left: 0%;
+    margin-top: 15%;
+}
+.owl-theme .owl-dots{
+    left: 49%;
+    bottom: 50px;
+}
+

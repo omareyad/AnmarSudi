@@ -1,0 +1,132 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) {
+
+.imgslider1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 50px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: center;}
+    
+ 
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+.imgslider1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 50px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: center;}
+
+}
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1010px) {
+ 
+    .imgslider1{
+width: 100%;
+height: 100%;
+vertical-align: middle;
+object-fit: contain;
+margin-top: 40px; 
+padding-left:0px !important;
+padding-right: 0px !important;
+    }
+    
+    
+     .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 17.666667%;
+    max-width: 17.666667%;
+    }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+ 
+.imgslider1{
+width: 100%;
+height: 100%;
+vertical-align: middle;
+object-fit: contain;
+margin-top: 40px; 
+padding-left:0px !important;
+padding-right: 0px !important;
+    }
+    
+    
+    .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 17.666667%;
+    max-width: 17.666667%;
+    }
+
+
+}
+
+
+.slider {
+  max-width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  position: relative;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+     position: absolute;
+    width: 100%;
+    height: 6rem;
+}
+.slide1 {
+  background: url(../imgs/clientHome3.png)no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  background: url(../imgs/clientHome2.png)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url(../imgs/clientHome1.jpeg)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+
+
+

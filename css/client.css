@@ -1,0 +1,161 @@
+body
+  {
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+
+}
+.header1 {
+    width: 100%;
+    min-height: 450px;
+    background-image: url(https://www.avanade.com/en/blogs/avanade-insights/workplace/super-powered-employee-engagement/~/media/images/blogs/avanade-insights/super-powered-employee-engagement.jpg);
+    background: -webkit-canvas(animation) no-repeat 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  .header1 .site-title {
+    min-height: 300px;
+  }
+  .header1 h1 {
+    position: absolute;
+    bottom: 40%;
+    left: 42%;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: 800;
+  }
+
+
+
+  @media only screen and (max-width: 40.063em) {
+    .header1, .site-title {
+      min-height: 240px;
+    }
+
+}
+
+
+.our-client-div{
+padding-top:120px;
+padding-bottom: 80px;
+position: relative;
+}
+  .client-content{
+text-align: center;
+width: 90%;
+position: absolute;
+top: 62%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+  }
+  .client-content p{
+      margin-top: 10px;
+
+  }
+
+  /* Start About Area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */
+
+
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative;}
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.img, .blog-img, .user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+@media (min-width: 992px){
+.wrap-about .heading-section {
+    margin-left: -120px;
+    background: #fff;
+    -webkit-box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13);
+    box-shadow: -20px 5px 14px -15px rgba(0, 0, 0, 0.13);
+}
+}
+@media (min-width: 768px){
+.p-md-5 {
+    padding: 3rem !important;
+}}
+@media (max-width: 800px){
+.factoimg{  height: 326px;
+    margin-bottom: 45px;}
+}
+
+.shapes{
+  width: 400px;
+  position: absolute;
+  margin-left: -195px;
+  z-index: -1;
+  transform: rotate(-90deg);
+
+}
+.about1{
+  width: 462px;
+  background-size: cover;
+  background-position: 14% 0px;
+  height: 600px;
+}
+.bg-darken {
+  background: #035639;
+color: white;
+height: 600px;}
+
+
+.contact-section .contact-info p span {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+@media (min-width: 992px){
+.contact-section .contact-info .border-height {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}}
+
+.contact-section .contact-info p a {
+  color: #1a1a1a;
+}
+
+.block-9 h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #8a8787;
+}
+.bg-light {
+  background: #f8f9fa !important;
+}
+.btn.btn-primary {
+  background: #035639 !important;
+  border: 1px solid #035639 !important;
+  color: #fff !important;
+}
